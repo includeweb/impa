@@ -1,0 +1,1 @@
+<div><?=$section->page_content;?></div>

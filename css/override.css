@@ -1,0 +1,69 @@
+/* Overrides */
+
+body{
+	font-family: 'Ubuntu', sans-serif!important;
+	background-color: #EEEEEE;
+}
+
+.list-group-item {border:none;}
+#content-app .panel-title{
+    margin-top: 9px;
+}
+/* fix width tinyeditor*/
+.tinyeditor{width: 100%!important}
+
+.navbar-default{
+	background-color: #7AA5D2;	
+	border-radius: 0;
+	border:none;
+	border-bottom: 4px solid #47555E;
+}
+
+.panel-heading{
+	background-color: #47555E!important;	
+	border-radius: 0!important;
+	color:#fff!important;
+	font-weight: bold!important;
+}
+
+.btn-default{
+	border-radius: 0;
+	background-color: #ddd;
+}
+.btn-primary, .btn-success, .btn-danger, .btn-warning{
+	border-radius: 0;
+}
+
+.panel-title{
+	font-weight: bold;
+	letter-spacing: 0.2px;
+    text-transform: uppercase;
+}
+
+.panel{border-radius: 0;}
+.navbar{min-height: 64px;}
+.navbar-brand{padding: 8px 15px;}
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+    color: #fff;
+    background-color: #47555E;
+    border-left: 7px solid #337ab7;
+    border-radius: 0;
+}
+
+.logo{
+	float: left;
+    width: 100px;
+    margin-top: 10px;
+    font-size: 30px;
+    color: #fff;
+    margin-left: 10px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a:visited {
+    color: #fff;
+}

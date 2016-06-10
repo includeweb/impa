@@ -1,0 +1,142 @@
+body{
+    background-color: #ddd;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.navbar{
+	background-color: #221F1E;
+	border:0;
+	border-radius: 0;
+	min-height: 70px;
+	margin-bottom: 0;
+}
+
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a {
+   color: #fff;
+   text-transform: uppercase;
+}
+
+.banner{
+	background-image: url('../images/banner.jpg');
+	background-size: 100%;
+	height: 400px;
+}
+
+.hero{
+	background-color: rgba(85, 85, 85, 0.6);
+	padding:20px;
+	color: #fff;
+	margin-top: 30px;
+	width: 60%;
+}
+
+.hero h1{
+	font-size:66px;
+	font-weight:bold;
+	text-shadow: 2px 2px #000;
+}
+
+.hero h2{
+	font-size:46px;
+	text-shadow: 2px 2px #000;
+	
+}
+.navbar-header{
+	 height: 69px;
+}
+
+.nopadding{
+	padding:0;
+}
+
+.panel-heading{
+	background-color: #221F1E!important;
+	border-radius: 0;
+	padding: 15px 0px;
+}
+.panel-heading h3{
+	background-color:#b71c1c ;
+	padding:10px ;
+	width: 80%;
+	color: #fff;
+	font-weight: bold;
+}
+
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border:none;
+    border-bottom: 1px solid #555;
+    border-radius: 0px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.event{
+	padding: 10px;
+
+	display: block;
+	background-color: #757575;
+}
+.event a{
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.btn-info{
+	background-color: #000;
+	border: 0;
+	border-radius:0;
+	font-size:10px;
+}
+.item{
+	height: 350px;
+}
+
+.novedades{
+	padding-bottom: 15px;
+	border-bottom: 1px solid #555;
+}
+.novedades h4{
+	color:#A00826;
+}
+.videos{
+	padding: 15px;
+	border-bottom: 1px solid #555;
+}
+.videos h4{
+	color:#A00826;
+}
+
+.nav-pills li {
+	border-bottom: 1px solid #ccc;
+	border-right:1px solid #ccc;
+	margin-bottom: 10px;
+}
+.nav-pills li a{
+	color: #000;
+}
+
+.bgwhite{
+	background-color: #fff;
+}
+
+.section{
+	padding: 15px;
+}
+
+#footer{
+	margin-top: 30px;
+	background-color: #221F1E;
+	
+	color: #fff;
+	padding: 20px 0px;
+}
+
+p strong{
+	color:#A00826;
+}
